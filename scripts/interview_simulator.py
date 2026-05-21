@@ -23,10 +23,10 @@ except ImportError:
 
 class InterviewSimulator:
     def __init__(self):
-        self.input_dir = Path(__file__).parent / "input"
-        self.output_dir = Path(__file__).parent / "output"
-        self.assets_dir = Path(__file__).parent / "assets"
-        self.references_dir = Path(__file__).parent / "references"
+        self.input_dir = Path(__file__).parent.parent / "input"
+        self.output_dir = Path(__file__).parent.parent / "output"
+        self.assets_dir = Path(__file__).parent.parent / "assets"
+        self.references_dir = Path(__file__).parent.parent / "references"
         
         self.output_dir.mkdir(exist_ok=True)
         
