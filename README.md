@@ -41,7 +41,7 @@
 
 ```bash
 cd interview-simulator
-python interview_simulator.py
+python scripts/interview_simulator.py
 ```
 
 ### 操作流程
@@ -148,7 +148,8 @@ interview-simulator/
 ├── assets/          # 报告模板
 ├── references/      # 面试攻略和评分标准
 ├── report/          # 质量检查报告
-├── interview_simulator.py  # 🎯 核心脚本
+├── scripts/         # 脚本文件夹
+│   └── interview_simulator.py  # 🎯 核心脚本
 ├── skill.md         # 技能定义文件
 ├── CHANGELOG.md     # 版本变更记录
 └── README.md        # 📖 你正在看的这个
